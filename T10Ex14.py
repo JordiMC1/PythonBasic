@@ -1,13 +1,14 @@
 def menu():
     op = 0
-    while op <1 or op>5:
+    while op <1 or op>6:
         print ("Tria una opció del menú de la calculadora: ")
         print ("1: Suma")
         print ("2: Resta")
         print ("3: Multiplicació")
         print ("4: Divisió")
         print ("5: Canvis de base")
-        print ("6: Sortir")
+        print ("6: De tres nombres quin es el més gran")
+        print ("7: Sortir")
         op = int(input("Introduéix un opció del menú: "))
         return op
 
@@ -49,6 +50,18 @@ def base():
     elif a>3:
         print("Base equivocada.")
 
+def gran():
+    a = int(input("Introdueix el primer nombre: "))
+    b = int(input("Introdueix el segon nombre: "))
+    c = int(input("Introdueix el tercer nombre: "))
+    
+    if a>b and c:
+        print("El nombre {} és més gros que {} i {}.".format(a,b,c))
+    elif b>c and a:
+        print("El nombre {} és més gros que {} i {}.".format(b,c,a))
+    elif c>a and b:
+        print("El nombre {} és més gros que {} i {}.".format(c,a,b))
+
 a = True
 while a:
     op = menu()
@@ -64,6 +77,8 @@ while a:
         case 5:
             base()
         case 6:
+            gran()
+        case 7:
             a = False
             print("Adeu, gràcies per haver utilitzat la calculadora! \n")
         case _:

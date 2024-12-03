@@ -189,26 +189,123 @@ for x,y in a.items():
     print(x,y)'''
 '''a = {"E1":"r1","E2":"V2","E3":{"E31":"Pep","E32":"Ramis"}}
 print(a.get("E3"))'''
-
+'''
 #Operacions matemàtiques:
 a = 7.0
 b = 10.0
 c = a + b
 print(c)
 #Suma: + | Resta: - | Divisió entera: / | Multiplicació: * | Potència: ** | Divisió redondejada: // | etc..
+'''
+'''
+#Parametres
+#String/cadena de caracters ?? Es passa per valor o per referència
+def modifica_string(s):
+    s="Aixo es un canvi, anem a veure si fora de la funció queda el canvi o no."
 
-#Comparació:
+s ="Bon dia, això es una prova"
+print(s)
+modifica_string(s)
+print(s)
+#
+def operacio (a, b, c,):
+    c= a + b
 a = 3
-b = "3"
-if a == b:
-    print("Si es igual")
+b = 4
+c = 0
+print(c)
+operacio(a, b, c)
+print(c)
+
+# Per referencia, si modifica el valor
+def axllista(l):
+    for i in range(len(l)):
+        l[i]*=3
+
+llista = [2, 3, 4]
+print(llista)
+axllista(llista)
+print(llista)
+
+def sumarl(llista):
+    ls = []
+    for e in llista:
+        ls.append(e)
+    return ls
+
+# Programa principal:
+l = [2, 3, 4]
+print(l)
+s = sumarl(llista)
+print("La llista original és {} i la modificada és {}".format(l, s))
+
+l = [1,2,3,4,5]
+r = list(map(lambda x:x**2,l))
+print(r)
+'''
+'''
+#Llegir si una paraula es més o menys llarga que l'altra
+a = input("Posa la primera paraula: ")
+b = input("Posa la segona paraula: ")
+
+if len(a) > len(b):
+    print("La paraula {} es més llarga que {}.".format(a,b))
 else:
-    print("No es igual")
-e = 3 + 4 * 5 / 7 ** (4-27)
-print(e)
-a = int(input("Escriu un número: "))
-b = int(input("Escriu un número: "))
-c = int(input("Escriu un número: "))
-if a > b:
-    if b > c:
-        print("{} és major que ")
+    print("La paraula {} és més llarga que {}.".format(b,a))
+if len(a)==len(b):
+    print("Les dues paraules son igual de llargues.")
+'''
+'''
+#Llegir els nombres parells d'una llista
+l = [3,5,6,8,9,11,12]
+
+r = []
+for e in l:
+    if e%2==0:
+        r.append(e)
+print(r)
+
+#Versió iterativa
+def parell(x):
+    if x%2==0:
+        r.append(e)
+print(r)
+
+#Vesrsió amb filter(programació funcional)
+def parell(x):
+    if x%2==0:
+        return True
+    return False
+w = list(filter(lambda x:x%2==0,l))
+print(w)
+
+#Versió amb funció anònima
+s = list(filter(lambda x:x%2==0,l))
+print(s)
+
+#Fer el factorial de forma iterativa
+n = int(input("Introdueix un número: "))
+i = 0
+while (i<=n):
+    r=r*n
+    n=n-1
+print(r)
+
+#Fer el factorial en recursivitat
+n = int(input("Dime un numero: "))
+def fact(n):
+    if n <= 0:
+        return 1
+    else:
+        return n*fact(n-1)
+print(fact(3))
+'''
+#Llegir una cadena de caracters i substituir les vocals per un '.' i mostrar el resultat.
+def llegir_llista():
+    l=[]
+    a=""
+    while a!=".":
+        a=input("Introdueix un caracter, per a acabar posa un '.': ")
+        if a!=".":
+            l.append((a))
+    return l

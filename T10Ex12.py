@@ -1,6 +1,6 @@
 def menu():
     op = 0
-    while op <1 or op>5:
+    while op <1 or op>4:
         print("Menú de la calculadora: ")
         print("1: Suma")
         print("2: Resta")
