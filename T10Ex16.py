@@ -5,3 +5,4 @@ def longitud():
         if i == ".":
             longitud += 1
     print(l)
+longitud()

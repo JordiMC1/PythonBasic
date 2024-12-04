@@ -1,6 +1,6 @@
 def esvocal(x):
     return x.lower() in "aeiou"
-#programa principal
+
 a = "a"
 while(a!="."):
     a = input("Escriu la vocal: ")
