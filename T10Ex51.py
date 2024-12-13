@@ -1,3 +1,8 @@
-with open("Prova1.txt","w") as f:
-    for i in range(10):
-        f.write(str(i+1) + "\n")
+def creaer_llista_fitxer(nom):
+    l = []
+    with open(nom,"r") as f:
+        for line in f:
+            l.append(line[:-1])
+    return (l)
+l = creaer_llista_fitxer("prova1.txt")
+print(l)
