@@ -7,4 +7,4 @@ def nombresPrimers(max):
         if prime:
             print(num)
 
-nombresPrimers(100)
+nombresPrimers(100) 
