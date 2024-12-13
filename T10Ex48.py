@@ -15,4 +15,4 @@ def hi_ha_duplicats(l):
         print("Hi ha duplicats")
 
 l = llegir_llista
-hi_ha_duplicats(l)
+hi_ha_duplicats(l) 

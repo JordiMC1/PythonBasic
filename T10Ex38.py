@@ -8,4 +8,4 @@ def paraules_que_rimen():
     else:
         print("Les paraules {} i {} no rimen ninguna lletra.".format(a,b))
 
-paraules_que_rimen()
+paraules_que_rimen() 

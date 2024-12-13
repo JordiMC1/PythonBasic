@@ -6,4 +6,4 @@ def suma_digits():
     else:
         print("La suma dels nombres {} son senars.".format(num))
 
-suma_digits()
+suma_digits() 

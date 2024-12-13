@@ -10,4 +10,4 @@ def gran_llista(l):
     return max(l)
 
 a = llegir_llista()
-print("El major de la llista {} és {}".format(a, gran_llista(a)))
+print("El major de la llista {} és {}".format(a, gran_llista(a))) 

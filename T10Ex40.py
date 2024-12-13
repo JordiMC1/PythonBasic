@@ -10,4 +10,4 @@ def suma_quadrats():
 
     print("La suma dels quadrats dels números són: {}".format(suma))
     
-suma_quadrats()
+suma_quadrats() 

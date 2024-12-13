@@ -10,3 +10,4 @@ def num_majuscules(s):
 a = input("Introduexi una paraula amb Majúscules i minúscules: ")
 x,y=num_majuscules(a)
 print("El número de majúscules que té la paraula {} és de {} i són {}".format(a,x,y))
+ 

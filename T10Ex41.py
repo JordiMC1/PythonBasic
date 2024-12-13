@@ -7,4 +7,4 @@ def quants_digits_te():
     else: 
         print("El teu numero no está entre l'1 i el 900000.")    
     
-quants_digits_te()
+quants_digits_te() 

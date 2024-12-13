@@ -12,4 +12,4 @@ def filtrar_paraules(l,n):
 
 x = llegir_llista()
 y = int(input("Introdueixi un número: "))
-print("De la llista {} que tinguin més de {}-caràcters hi ha {}".format(x,y,filtrar_paraules(x,y)))
+print("De la llista {} que tinguin més de {}-caràcters hi ha {}".format(x,y,filtrar_paraules(x,y))) 

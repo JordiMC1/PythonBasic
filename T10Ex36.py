@@ -47,4 +47,4 @@ def joc():
         partidaNova = input("Vols tornar a jugar? Introdueixi si o no: ").lower()
         print("\n")
 
-joc()
+joc() 

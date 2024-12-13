@@ -12,5 +12,5 @@ def crear_punts(l):
         print("{} \n".format(s*e))
         s="."
 
-a = llegir_llista()
+a = llegir_llista() 
 crear_punts(a)

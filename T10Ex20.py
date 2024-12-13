@@ -13,4 +13,4 @@ a = invertir(s)
 if es_palindrom(s):
     print("La frase/paraula {} és igual a {} i, per tant, és palíndrom".format(s, a))
 else:
-    print("La frase/paraula {} no és igual a {} i, per tant, no és palindrom".format(s, a))
+    print("La frase/paraula {} no és igual a {} i, per tant, no és palindrom".format(s, a)) 

@@ -13,7 +13,7 @@ def crear_punts(l):
         s="."
 
 a = llegir_llista()
-b=llegir_llista()
+b=llegir_llista() 
 crear_punts(a)
 crear_punts(b)
 crear_punts(a)

@@ -14,4 +14,4 @@ l=llegir_llista
 r=elimina_duplicats
 print("La llista {} uqeda aixi {}.".format(l,r))
 
-elimina_duplicats(l)
+elimina_duplicats(l) 

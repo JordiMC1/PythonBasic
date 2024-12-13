@@ -7,4 +7,4 @@ while(a!="."):
     if esvocal(a):
         print("La lletra introduïda {} és vocal".format(a))
     else:
-        print("La lletra introduïda {} no és una vocal".format(a))
+        print("La lletra introduïda {} no és una vocal".format(a)) 

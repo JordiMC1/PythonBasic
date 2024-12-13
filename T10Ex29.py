@@ -6,4 +6,4 @@ def bintodec(b):
     return (d)
         
 a = input("Introdueix un número en binari: ")
-print("El número {} binari és {} decimal.".format(a, bintodec(a)))
+print("El número {} binari és {} decimal.".format(a, bintodec(a))) 

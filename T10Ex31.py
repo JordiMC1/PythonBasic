@@ -11,4 +11,4 @@ referencia = 18
 
 a = print("Els nombres majors a {} són: ".format(referencia))
 
-mostrar_majors_que(referencia, tupla)
+mostrar_majors_que(referencia, tupla) 

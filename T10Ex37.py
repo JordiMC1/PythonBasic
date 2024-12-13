@@ -24,4 +24,4 @@ def comparar(l):
             print("Aquest número {} està en el seu lloc".format(e))
 
 m = crear_num_aleatoris()
-comparar(m)
+comparar(m) 

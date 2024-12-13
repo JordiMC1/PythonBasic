@@ -13,4 +13,4 @@ def eiminar_cap_i_cua(l):
 
 l = llegir_llista()
 s = eiminar_cap_i_cua(l)
-print("{} es transforma en {}".format(l,s))
+print("{} es transforma en {}".format(l,s)) 

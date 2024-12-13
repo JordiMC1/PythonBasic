@@ -10,5 +10,5 @@ def taula():
     print(num *8)
     print(num *9)
     print(num *10)
-
+ 
 taula()

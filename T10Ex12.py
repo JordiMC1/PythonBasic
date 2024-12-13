@@ -40,4 +40,4 @@ while a:
         case 5:
             print("Adeu i gracies per emprar la calculadora!!")
         case _:
-            print("Error")
+            print("Error") 

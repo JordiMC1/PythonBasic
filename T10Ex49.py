@@ -7,4 +7,4 @@ def llista_20_elements():
         l.append(random.randint(0,101))
     print(l)
 
-llista_20_elements()
+llista_20_elements() 

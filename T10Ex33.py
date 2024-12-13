@@ -16,4 +16,4 @@ def noms_que_comencen_per(l, c):
 
 l = llegir_llista()
 c = input("Introdueix un caracter: ")
-noms_que_comencen_per(l, c)
+noms_que_comencen_per(l, c) 

@@ -18,4 +18,4 @@ def esta_ordenada(l):
         print("La llista no està ordenada")
 
 l = llegir_llista()
-esta_ordenada(l)
+esta_ordenada(l) 

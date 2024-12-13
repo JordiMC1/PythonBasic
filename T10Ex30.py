@@ -9,4 +9,4 @@ for i in range(4):
 print("Any actual: {}".format(any_actual))
 print("Nom\t     \tData naixement         \tAnys que fará aquest any")
 for nombre, any_naixement, edad in dades:
-    print("{}\t{}             \t{}".format(nom, any_naixement, edad))
+    print("{}\t{}             \t{}".format(nom, any_naixement, edad)) 

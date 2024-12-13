@@ -6,4 +6,4 @@ def digits_parells():
         print("Els digits parells de {} son {}".format(num, parells))
     else:
         print("No hi ha nombres parells.")
-digits_parells()
+digits_parells() 

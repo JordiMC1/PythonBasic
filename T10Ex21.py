@@ -14,7 +14,7 @@ def superposicio(l1, l2):
     return False
 
 def superposicio2(l1, l2):
-    ec=[]
+    ec=[] 
     for e in l1:
         if e in l2:
             ec.append(e)

@@ -3,4 +3,4 @@ def gran_de_tres():
     b = float(input("Introdueix el segon numero: "))
     c = float(input("Introdueix el tercer numero: "))
     print(max (a, b, c))
-gran_de_tres()
+gran_de_tres() 

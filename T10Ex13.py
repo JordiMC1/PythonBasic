@@ -8,4 +8,4 @@ def base():
             print("El numero en octal es: ", oct(int(str(a), 2)))
             print("El numero en decimal es: ", int(str(a), 2))
             print("El numero en hexadecimal es: ", hex(int(str(a), 2)))
-base()
+base() 

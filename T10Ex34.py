@@ -21,4 +21,4 @@ def comptar_vocals(paraula):
 
 comptar_vocals("hola")
 
-print("a:", a, "\n e:", e, "\n i:", i, "\n o:", o, "\n u:", u)
+print("a:", a, "\n e:", e, "\n i:", i, "\n o:", o, "\n u:", u) 

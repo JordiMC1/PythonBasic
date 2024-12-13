@@ -11,7 +11,7 @@ def sumar_llista(l):
     suma=0
     for e in l:
         suma += e
-    return suma
+    return suma 
 
 def multiplicar_llista(l):
     multiplicacio=1

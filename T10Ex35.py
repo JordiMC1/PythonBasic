@@ -4,4 +4,4 @@ def es_de_traspas():
         print("L'any {} es de traspás.".format(a))
     else:
         print("L'any {} no és de traspás.".format(a))
-es_de_traspas()
+es_de_traspas() 

@@ -21,4 +21,4 @@ n = index_paraula(l, p)
 if n>0:
     print("La paraula {} esta en la posició {}.".format(p, n))
 else:
-    print("La paraula no está dins la llista.")
+    print("La paraula no está dins la llista. ")
